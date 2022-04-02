@@ -10,7 +10,7 @@ public class bela_kattis
         int hands = int.Parse(line.Substring(0, space)) * 4;
         char suit = line[space + 1];
         int points = 0;
-        for (int x = 0; x < hands; x++);
+        for (int x = 0; x < hands; x++)
         {
             string s = Console.ReadLine();
             switch (s[0])
@@ -46,4 +46,3 @@ public class bela_kattis
         Console.WriteLine(points);
     }
 }
-
